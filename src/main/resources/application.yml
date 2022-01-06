@@ -1,0 +1,5 @@
+# WAS서버 설정
+server:
+  address: localhost
+  port: 8091
+  connection-timeout: 10000

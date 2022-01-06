@@ -1,0 +1,5 @@
+# Service server
+server:
+  address: localhost
+  port: 9080
+  connection-timeout: 10000
