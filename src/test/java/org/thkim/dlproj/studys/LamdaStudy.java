@@ -21,7 +21,7 @@ public class LamdaStudy {
 
     }
 
-    // 함수형 인터페이스의 등장으로 우리는 함수를 변수처럼 선언할 수 있게 되었고, 코드 역시 간결하게 작성할 수 있게 되었다.
+    // 함수형 인터페이스의 등장으로 우리는 함수를 변수처럼 선언할 수 있게 되었고, 코드 역시 간결하게 작성할 수 있게 되었다..
     @FunctionalInterface
     interface MyLambdaFunction {
         int max(int a, int b);

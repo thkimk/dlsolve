@@ -16,7 +16,7 @@ public class OptionalStudy {
 
     @Data
     @AllArgsConstructor
-    class House {
+    public class House {
         private Person onwer;
         private String address;
 
@@ -29,8 +29,7 @@ public class OptionalStudy {
 
     House getHouse() {
         Person lPerson = new Person("thkim");
-
-        return new House(null, "korea");
+        return new House(lPerson, null);
     }
 
 
