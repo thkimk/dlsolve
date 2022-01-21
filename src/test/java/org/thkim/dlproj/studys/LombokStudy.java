@@ -23,7 +23,12 @@ public class LombokStudy {
     @Test
     void test1() {
         LombokStudy lombokStudy = LombokStudy.builder()
-                                    .key("key1").value("value1").build();
+                                    .key("key1")
+                                    .value("value1").build();
         System.out.println("## "+ lombokStudy.toString());
     }
 }
+
+
+
+
